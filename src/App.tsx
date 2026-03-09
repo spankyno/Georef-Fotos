@@ -21,7 +21,7 @@ import {
   X
 } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, useMapEvents, useMap } from 'react-leaflet';
-import L from 'leaflet';
+import * as L from 'leaflet';
 import JSZip from 'jszip';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -34,6 +34,7 @@ const DefaultIcon = L.icon({
     iconSize: [25, 41],
     iconAnchor: [12, 41]
 });
+// @ts-ignore
 L.Marker.prototype.options.icon = DefaultIcon;
 
 function cn(...inputs: ClassValue[]) {

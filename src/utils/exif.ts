@@ -1,6 +1,6 @@
-import EXIF from 'exif-js';
-// @ts-ignore
-import piexif from 'piexifjs';
+// Use global libraries from CDN to avoid bundling issues with older libraries
+const EXIF = (window as any).EXIF;
+const piexif = (window as any).piexif;
 
 export interface PhotoData {
   id: string;
