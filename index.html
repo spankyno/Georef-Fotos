@@ -2,17 +2,69 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Georef Fotos - Georeferenciación de Imágenes Online</title>
-    <meta name="google-site-verification" content="MEiDmnJOvnWITHUi0HCLxuoulOEm0oTM4fwQMugxoyY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <title>Georef Fotos: Georreferenciar Imágenes Online Gratis</title>
+    <meta name="description" content="Georef Fotos: herramienta gratuita online para georreferenciar imágenes. Añade coordenadas GPS, altitud y metadatos EXIF a tus fotos fácilmente." />
+    <meta name="keywords" content="georreferenciar fotos, geotagging, añadir GPS a foto, metadata EXIF, coordenadas imagen, latitud longitud foto" />
     <meta name="author" content="Aitor Sánchez Gutiérrez" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="google-site-verification" content="MEiDmnJOvnWITHUi0HCLxuoulOEm0oTM4fwQMugxoyY" />    
+    <link rel="canonical" href="https://georef-fotos.vercel.app/" />
+    
+    <!-- OPEN GRAPH (para compartir en redes sociales) -->
+    <meta property="og:title" content="Georef Fotos - Georreferenciar Imágenes Online" />
+    <meta property="og:description" content="Añade coordenadas GPS a tus fotos de forma gratuita y online. Herramienta sencilla y rápida." />
+    <meta property="og:url" content="https://georef-fotos.vercel.app/" />
+    <meta property="og:type" content="website" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1286" />
+	<meta property="og:image:height" content="857" /> <!-- opcional: típicamente 1200x630 para OG -->
+    <meta name="twitter:image" content="https://georef-fotos.vercel.app/portada.png" />    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Georef Fotos - Georreferenciar Imágenes Online" />
+    <meta name="twitter:description" content="Herramienta gratuita para georreferenciar fotos añadiendo metadatos GPS." />
+    <meta name="twitter:image" content="https://georef-fotos.vercel.app/portada.png" />   
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Georef Fotos",
+      "operatingSystem": "Web",
+      "applicationCategory": "Multimedia",
+      "applicationSubCategory": "UtilityTool",
+      "url": "https://georef-fotos.vercel.app/",
+      "description": "Herramienta para georreferenciar fotos. Agrega información geográfica a fotos online de forma gratuita.",
+      "author": {
+        "@type": "Person",
+        "name": "Aitor Sánchez Gutiérrez",
+        "url": "https://aitorblog.infinityfreeapp.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aitor Hub",
+        "url": "https://aitorhub.vercel.app/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/OnlineOnly"
+      },
+      "featureList": "Georreferenciación de fotos, edición EXIF, añadir coordenadas GPS",
+      "screenshot": "https://georef-fotos.vercel.app/portada.png",
+      "softwareVersion": "1.0"
+    }
+    </script>
+    
+    <!-- SCRIPTS EXTERNOS (mantenemos los tuyos) -->
     <script src="https://cdn.jsdelivr.net/npm/piexifjs@1.0.6/piexif.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- (Opcional) Si tienes texto adicional o quieres mejorar la accesibilidad, podrías añadir un <noscript> o un header, pero React lo maneja -->
   </body>
 </html>
-
