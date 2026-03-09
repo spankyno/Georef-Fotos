@@ -1,0 +1,5 @@
+{
+  "name": "Georef Fotos",
+  "description": "Herramienta para georeferenciar fotos directamente en el navegador de forma segura y privada.",
+  "requestFramePermissions": ["geolocation"]
+}
