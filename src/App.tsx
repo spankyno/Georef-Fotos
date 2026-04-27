@@ -434,7 +434,7 @@ export default function App() {
             <div>
               <h4 className="font-bold text-slate-900 mb-4 text-sm uppercase tracking-wider">Enlaces</h4>
               <div className="space-y-2">
-                <a href="http://aitorblog.infinityfreeapp.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-slate-600 hover:text-emerald-600 transition-colors">
+                <a href="https://aitorsanchez.pages.dev/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-slate-600 hover:text-emerald-600 transition-colors">
                   <Globe className="w-4 h-4 text-slate-400" />
                   Blog Personal
                 </a>
